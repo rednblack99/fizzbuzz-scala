@@ -1,5 +1,5 @@
 class FizzBuzzTest extends org.scalatest.FunSuite {
-  test("FizzBuzz.hello") {
-    assert(FizzBuzz.hello === "hello, world")
+  test("FizzBuzz returns number passed to it") {
+    assert(FizzBuzz.play(1) === 1)
   }
 }

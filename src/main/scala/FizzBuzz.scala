@@ -1,5 +1,5 @@
 object FizzBuzz extends App {
-  def hello = {
-    "hello, world"
+  def play(number: Int) = {
+    number
   }
 }
