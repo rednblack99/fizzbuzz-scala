@@ -1,0 +1,3 @@
+[0m[[0minfo[0m] [0m[32mFizzBuzzTest:[0m[0m
+[0m[[0minfo[0m] [0m[31m- FizzBuzz.hello *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  "[H]ello, world" did not equal "[h]ello, world" (FizzBuzzTest.scala:3)[0m[0m
