@@ -6,4 +6,8 @@ class FizzBuzzTest extends org.scalatest.FunSuite {
   test("Fizzbuzz returns fizz when passed multiple of 3") {
     assert(FizzBuzz.play(3) === "Fizz")
   }
+
+  test("Fizzbuzz returns buzz when passed multiple of 5") {
+    assert(FizzBuzz.play(5) === "Buzz")
+  }
 }
