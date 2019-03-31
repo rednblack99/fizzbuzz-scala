@@ -14,4 +14,12 @@ class FizzBuzzTest extends org.scalatest.FunSuite {
   test("FizzBuzz returns FizzBuzz when number is multiple of both 3 and 5") {
     assert(FizzBuzz.play(15) === "FizzBuzz")
   }
+
+  test("FizzBuzz.game plays Fizzbuzz up to 5") {
+    assert(FizzBuzz.calc_results === "\n1\n2\nFizz\n4\nBuzz")
+  }
+
+  test("FizzBuzz.up_to print results only") {
+    assert(FizzBuzz.up_to === ())
+  }
 }

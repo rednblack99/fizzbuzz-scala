@@ -3,3 +3,5 @@
 [0m[[0minfo[0m] [0m[32m- Fizzbuzz returns fizz when passed multiple of 3[0m[0m
 [0m[[0minfo[0m] [0m[32m- Fizzbuzz returns buzz when passed multiple of 5[0m[0m
 [0m[[0minfo[0m] [0m[32m- FizzBuzz returns FizzBuzz when number is multiple of both 3 and 5[0m[0m
+[0m[[0minfo[0m] [0m[32m- FizzBuzz.game plays Fizzbuzz up to 5[0m[0m
+[0m[[0minfo[0m] [0m[32m- FizzBuzz.up_to prints results only[0m[0m

@@ -5,4 +5,18 @@ object FizzBuzz extends App {
     else if (number % 5 == 0) "Buzz"
     else number
   }
+
+  def calc_results = {
+    var x = 1
+    var to_return = ""
+    while (x <= 5) {
+      to_return = to_return + "\n" + FizzBuzz.play(x)
+      x = x + 1;
+    }
+    to_return  
+  }
+
+  def up_to = {
+    println(FizzBuzz.calc_results)
+  }
 }
