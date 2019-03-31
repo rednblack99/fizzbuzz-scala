@@ -6,17 +6,17 @@ object FizzBuzz extends App {
     else number
   }
 
-  def calc_results = {
+  def calc_results(number: Int) = {
     var x = 1
     var to_return = ""
-    while (x <= 5) {
+    while (x <= number) {
       to_return = to_return + "\n" + FizzBuzz.play(x)
       x = x + 1;
     }
     to_return  
   }
 
-  def up_to = {
-    println(FizzBuzz.calc_results)
+  def up_to(number: Int) = {
+    println(FizzBuzz.calc_results(number))
   }
 }

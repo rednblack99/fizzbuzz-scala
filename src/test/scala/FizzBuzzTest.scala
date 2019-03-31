@@ -15,11 +15,15 @@ class FizzBuzzTest extends org.scalatest.FunSuite {
     assert(FizzBuzz.play(15) === "FizzBuzz")
   }
 
-  test("FizzBuzz.game plays Fizzbuzz up to 5") {
-    assert(FizzBuzz.calc_results === "\n1\n2\nFizz\n4\nBuzz")
+  test("FizzBuzz.game can play Fizzbuzz up to 5") {
+    assert(FizzBuzz.calc_results(5) === "\n1\n2\nFizz\n4\nBuzz")
+  }
+
+  test("FizzBuzz.game can play Fizzbuzz up to 20") {
+    assert(FizzBuzz.calc_results(20) === "\n1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n16\n17\nFizz\n19\nBuzz")
   }
 
   test("FizzBuzz.up_to print results only") {
-    assert(FizzBuzz.up_to === ())
+    assert(FizzBuzz.up_to(1) === ())
   }
 }
